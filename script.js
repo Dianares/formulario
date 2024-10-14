@@ -31,7 +31,7 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
     };
 
     
-    fetch('https://formspree.io/f/xwpkkebp', {
+    fetch('https://formspree.io/f/mrbggkyg', {
         method: 'POST',
         body: JSON.stringify(data),
         headers: {

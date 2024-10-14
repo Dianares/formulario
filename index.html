@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de Contato</h1>
+        <form id="contactForm" action="https://formspree.io/f/YOUR_ENDPOINT" method="POST">
+            <input type="text" name="nome" required placeholder="Nome completo">
+            <input type="email" name="email" id="email" required placeholder="E-mail" title="Introduza um e-mail válido">
+            <input type="text" name="telefone" id="telefone" required placeholder="Telefone" pattern="\d{9}" inputmode="numeric" title="Introduza um número de telefone válido (9 dígitos)">
+            <input type="text" name="estado" required placeholder="Zona de Procura imóvel">
+        
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
